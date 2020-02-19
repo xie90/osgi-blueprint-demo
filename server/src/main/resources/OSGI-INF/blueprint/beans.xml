@@ -5,6 +5,8 @@
 
     <bean id="helloImpl" class="com.osgi.impl.HelloImpl"
           init-method="startup"/>
+    <bean id="WorldImpl" class="com.osgi.impl.WorldImpl"
+          init-method="startup"/>
     <service id="helloService" interface="com.osgi.inter.Hello" ref="helloImpl"/>
 
 
