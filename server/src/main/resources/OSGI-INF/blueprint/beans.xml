@@ -5,8 +5,9 @@
 
     <bean id="helloImpl" class="com.osgi.impl.HelloImpl"
           init-method="startup"/>
-    <bean id="WorldImpl" class="com.osgi.impl.WorldImpl"
-          init-method="startup"/>
+    <!--不需要创建实例，static类也能直接被调用-->
+    <!--<bean id="WorldImpl" class="com.osgi.impl.WorldImpl"
+          init-method="startup"/>-->
     <service id="helloService" interface="com.osgi.inter.Hello" ref="helloImpl"/>
 
 
