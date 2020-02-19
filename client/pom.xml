@@ -75,6 +75,11 @@
             <artifactId>org.apache.felix.configadmin</artifactId>
             <version>1.2.4</version>
         </dependency>
+        <dependency>
+            <groupId>com.osgi</groupId>
+            <artifactId>server2</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 
